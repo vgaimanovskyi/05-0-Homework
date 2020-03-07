@@ -1,0 +1,89 @@
+body {
+    background: #ffffff;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+}
+
+body, form, div, p, a, img, h1, h2, h3, h4, h5, h6, table, table tr, table td {
+    border: none;
+    color: #000000;
+    font-family: Arial;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+
+input,
+textarea,
+select {
+    outline: none;
+    font-family: Arial;
+    font-size: 12px;
+    box-sizing: border-box;
+}
+
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: underline;
+    outline: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1, h2 {
+    font-size: 20px;
+    padding: 0 0 10px 0;
+    color: #545454;
+}
+
+
+.block-features {
+    background-color: #1d1c1c;
+}
+.mainer {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+.block-features .wrapper {
+    display: flex;
+    margin: 0 -15px;
+}
+.block-features .cell {
+    flex-grow: 1;
+    padding: 108px 15px;
+}
+.block-features .icon {
+    width: 70px;
+    height: 70px;
+    background-color: #ff9c00;
+    margin: 0 auto 42px auto;
+    border-radius: 18px 0;
+    text-align: center;
+    line-height: 70px;
+}
+.block-features img {
+    vertical-align: middle;
+}
+.block-features .caption {
+    color: #fff;
+    text-align: center;
+    font-size: 24px;
+    text-transform: uppercase;
+    margin: 0 0 27px 0;
+}
+.block-features .discription {
+    color: #fff;
+    text-align: center;
+    line-height: 24px;
+}
